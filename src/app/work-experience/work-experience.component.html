@@ -1,0 +1,15 @@
+<h3> Step1: Work Experience Details </h3>
+<div style="text-align: center;">
+<form [formGroup]="workExperienceForm" (ngSubmit)="onSubmit()">
+  <input type = "text" name = "job1" placeholder = "Your Job" formControlName="job1" >
+  <br/><br/>
+
+  <input type = "text" name = "job2" placeholder = "Your Job" formControlName="job2" >
+  <br/>
+  <input type = "text" name = "job3" placeholder = "Your Job" formControlName="job3" >
+  <br/>
+  <br/>
+  <!-- <input type = "submit" value = "Next"> -->
+  <a class="nav-link" href="#finish" routerLink="/final">Next</a>
+</form> 
+</div>

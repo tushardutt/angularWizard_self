@@ -1,0 +1,15 @@
+<h3> Step1: Contact Details </h3>
+<div style="text-align: center;">
+<form [formGroup]="contactDetailForm" (ngSubmit)="onSubmit()">
+  <input type = "email" name = "email" placeholder = "Your Email" formControlName="email" >
+  <br/><br/>
+
+  <input type = "text" name = "mobile" placeholder = "Your Mobile" formControlName="mobile" >
+  <br/>
+  <input type = "text" name = "country" placeholder = "Your Country" formControlName="country" >
+  <br/>
+  <br/>
+  <!-- <input type = "submit" value = "Next"> -->
+  <a class="nav-link" href="#skills" routerLink="/skill">Next</a>
+</form> 
+</div>

@@ -1,0 +1,13 @@
+<h3> Step1: Personal Details </h3>
+<div style="text-align: center;">
+<form [formGroup]="personalDetailForm" (ngSubmit)="onSubmit()">
+  <input type = "text" name = "fname" placeholder = "Your first name" formControlName="fname" >
+  <br/><br/>
+
+  <input type = "text" name = "lname" placeholder = "Your last name" formControlName="lname" >
+  <br/>
+  <br/>
+  <!-- <input type = "submit" value = "Next"> -->
+  <a class="nav-link" href="#contactDetails" routerLink="/contactDetails" onclick="getHeaderStyle()">Next</a>
+</form> 
+</div>

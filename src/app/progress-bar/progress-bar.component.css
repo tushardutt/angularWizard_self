@@ -1,0 +1,89 @@
+#numberCircle1 {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+
+    margin: 10px;
+    margin-right: 200px;
+    margin-left:60px;
+    display: inline-block;
+}
+#numberCircle2 {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+
+    margin: 10px;
+    margin-right: 200px;
+    margin-left:60px;
+    display: inline-block;
+}
+#numberCircle3 {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+
+    margin: 10px;
+    margin-right: 200px;
+    margin-left:60px;
+    display: inline-block;
+}
+#numberCircle4 {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+
+    margin: 10px;
+    margin-right: 200px;
+    margin-left:60px;
+    display: inline-block;
+}
+.p{
+    background: green !important;
+}
+.c{
+    background: green !important;
+}
+.s{
+    background: green !important;
+}
+
+.w{
+    background: green !important;
+}
+
+.a{
+    background: #fff !important;
+}
+
+.d{
+    background: green !important;
+}
